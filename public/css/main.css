@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #001a33; /* Dark blue background */
+  color: #333;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.boilerplate-container{
+  height: 75%;
+}
+.container {
+  display: flex;
+  margin-top:4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #fefefe; /* White background */
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 1.8rem;
+  color: #001a33; /* Dark blue heading */
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #555; /* Subtext color */
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+form label {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+form button {
+  background-color: #0056cc; /* Blue button */
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+form button:hover {
+  background-color: #003d99; /* Darker blue on hover */
+}
+
+form button span {
+  font-size: 1.2rem;
+}

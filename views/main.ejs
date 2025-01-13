@@ -1,0 +1,18 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<body>
+
+    <div class="container">
+      <div class="card">
+        <h1>Shorten a long link</h1>
+        <p>No SignUP required.</p>
+        <form action="http://localhost:2626/shortlink/get-response" method="post">
+          <label for="long-url">Paste your long link here</label>
+          <input type="url" id="long-url" name="originalLink" placeholder="https://example.com/my-long-url" required>
+          <button type="submit">Get your link for free <span>&rarr;</span></button>
+        </form>
+      </div>
+    </div>
+
+
+</body>

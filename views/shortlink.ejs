@@ -1,0 +1,18 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<body>
+
+    <div class="container">
+      <div class="card">
+        <h1>Shorten a long link</h1>
+        <p>No SignUP required.</p>
+        <form action="#" >
+          <label for="long-url">your long link: <a href=<%=thislink.originalLink%>><%=thislink.originalLink%></a></label>
+          <input type="url" id="inputBox" name="originalLink" placeholder="https://example.com/my-long-url" value=http://localhost:2626/<%=thislink.shortLink%> >
+          <button type="button" id="copyButton">Copy <span>&rarr;</span></button>
+        </form>
+      </div>
+    </div>
+
+
+</body>
